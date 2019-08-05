@@ -5,7 +5,7 @@
  * @Author: Rahul
  * @Date:   2019-08-05 10:55:19
  * @Last Modified by:   Rahul
- * @Last Modified time: 2019-08-05 14:06:16
+ * @Last Modified time: 2019-08-05 14:33:19
  * @email: 469813291@qq.com
  */
 
@@ -46,8 +46,7 @@ class Weather
     }
 
     public function getWeather($city, $type = 'live', $format = 'json')
-    {
-        $url = 'https://restapi.amap.com/v3/weather/weatherInfo';
+    {$url = 'https://restapi.amap.com/v3/weather/weatherInfo';
 
         $types = [
             'live' => 'base',
