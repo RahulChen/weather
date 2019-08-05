@@ -2,6 +2,7 @@
 
 <p align="center"> A weather SDK.</p>
 
+[![Build Status](https://travis-ci.org/RahulChen/weather.svg?branch=master)](https://travis-ci.org/RahulChen/weather)
 
 ## Installing
 
